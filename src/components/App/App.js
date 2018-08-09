@@ -11,7 +11,7 @@ import Home from '../Home/Home'
 import ShowTopic from '../ShowTopic/ShowTopic'
 import UserInfo from '../UserInfo/UserInfo'
 import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 import Create from '../Create/Create'
 class App extends React.Component {
   render () {
@@ -26,7 +26,7 @@ class App extends React.Component {
               <Route path='/topic/:id'  component={ShowTopic}/>
               <Route path='/user/:loginname' component={UserInfo} />
             </Switch>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </Router>
 
